@@ -41,6 +41,7 @@ class UserController extends Controller
 
         return redirect('/')->with('message','You have been logged out');
 
+    
     }
 
     //SHow Login Form
